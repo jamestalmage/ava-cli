@@ -1,0 +1,60 @@
+{
+  "name": "ava-cli",
+  "version": "0.0.0",
+  "description": "Global CLI for AVA",
+  "license": "MIT",
+  "repository": "jamestalmage/ava-cli",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "bin": {
+    "ava": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ava",
+    "test",
+    "runner",
+    "concurrent",
+    "parallel",
+    "fast",
+    "tape",
+    "tap",
+    "mocha",
+    "qunit",
+    "jasmine",
+    "tdd",
+    "assert",
+    "assertion",
+    "futuristic",
+    "promise",
+    "promises",
+    "async",
+    "function",
+    "await",
+    "generator",
+    "generators",
+    "yield",
+    "observable",
+    "observables"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "fallback-cli": "^2.0.2"
+  },
+  "devDependencies": {
+    "xo": "^0.11.2"
+  }
+}
