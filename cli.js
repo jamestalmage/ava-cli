@@ -18,7 +18,7 @@ function text(text, color) {
 }
 
 require('fallback-cli')('ava/cli.js', function (opts) {
-	if (true || !opts.localCli) {
+	if (!opts.localCli) {
 		chalk = require('chalk');
 
 		indent = chalk.gray('│   ');
