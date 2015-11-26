@@ -1,6 +1,6 @@
 {
   "name": "ava-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Global CLI for AVA",
   "license": "MIT",
   "repository": "jamestalmage/ava-cli",
